@@ -14,7 +14,6 @@ class _CalculatorPageState extends State<CalculatorPage> {
   double result = 0;
   String res = "";
   List history = [];
-  // TextEditingController t1 = TextEditingController(text: '');
   @override
   Widget build(BuildContext context) {
     _deviceHeight = MediaQuery.of(context).size.height;
